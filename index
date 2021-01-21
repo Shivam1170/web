@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+  
+    <section id="section0">
+      <div class="container">
+          <p> <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+        </div>
+    </section>
+   
+   
+            <!-- <div class="container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="link">
+                <a href="" class="linke">how we work</a>
+                <a href="" class="linke">blog</a>
+                <a href="" class="linke">account</a>
+                <a href="" class=" but">view plan</a>
+            </div>
+             </div> -->
+    
+        <section id="banner">
+            <div class="banner-title" >
+                <h1>humanizing <br>
+                    your insurance.</h1>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                     Provident facere cupiditate dolor laudantium debitis ex,
+                      explicabo natus maiores voluptas ipsum esse laborum ea numquam architecto officia magnam corrupti.
+                      Qui, accusantium!</p>   
+                        <a href="" class="banner-btn"> view plans</a>
+                </div>
+                <div class="img">
+                    <img src="images/image-intro-desktop.jpg" alt="">
+                </div>
+                <img id="design" src="images/bg-pattern-intro-right-desktop.svg" alt="">
+            <img id="design-left" src="images/bg-pattern-intro-left-desktop.svg" alt="">
+        </section>
+
+
+
+
+        <section id="facility">
+            <h1>we're different</h1>
+            <div class="iconi">
+                <div class="col1">
+                    <img src="images/icon-snappy-process.svg" alt="">
+                    <h2>snappy process</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         A possimus beatae, provident ea accusantium ullam .</p> 
+                          </div>
+                          <div class="col2">
+                            <img src="images/icon-affordable-prices.svg" alt="">
+                            <h2>affordable price</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                 A possimus beatae, provident ea accusantium ullam .</p> 
+                                  </div>
+                                  <div class="col3">
+                                    <img src="images/icon-people-first.svg" alt="">
+                                    <h2>people first</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                         A possimus beatae, provident ea accusantium ullam .</p> 
+                                          </div>
+                        
+        </section>
+
+
+     <section id="boxx">
+        <img class='how-work' src="images/bg-pattern-how-we-work-desktop.svg" alt="">
+    
+         <div class="box">
+             <div>
+             <h1>find out more <br>
+                about how we work</h1>
+            </div>
+      <span class='btn-head'>
+                <a href=""   class=" box-btn">how we work</a>
+            </span>
+         </div>
+         </section>
+
+    
+        
+    <footer>
+        <img src="images/bg-pattern-footer-desktop.svg" alt="" class="footer">
+   
+        <div class="heading">
+            
+            <div>
+            <img src="images/logo.svg" alt="">
+           
+        </div>
+        <div>
+            <img class="foot-img" src="images/icon-facebook.svg" alt="">
+            <img class="foot-img" src="images/icon-instagram.svg" alt="">
+            <img class="foot-img" src="images/icon-pinterest.svg" alt="">  
+            <img class="foot-img" src="images/icon-twitter.svg" alt="">          
+        </div>
+     
+    </div>
+               <hr>
+            <div class="list"> 
+                 <div class="list">
+                    <!-- <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_yziydbap.json"  background="transparent"  speed="1"  style="width: 300px; height: 150px;"  loop  autoplay></lottie-player>
+                     -->
+                        <ul class="list-1">
+                         <li  class="head">our company</li>
+                         <li>how we work</li>
+                         <li>why insure</li>
+                         <li>view plan</li>
+                         <li>review</li>
+                     </ul>
+                 </div>
+                 <div class="list">
+                      <ul class="list-1">
+                          <li  class="head">help me</li>
+                          <li>faq</li>
+                          <li>tream of use</li>
+                          <li>privacy policy</li>
+                          <li>cookies</li>
+                      </ul>
+                 </div>
+                 <div class="list">
+                    <ul class="list-1">
+                        <li class="head">contact</li>
+                        <li>sales</li>
+                        <li>support</li>
+                          <li>live chat</li>
+                    </ul>
+                 </div>
+                 <div class="list">
+                    <ul class="list-1">
+                        <li  class="head">other</li>
+                        <li>career</li>
+                        <li>license</li>
+                       
+                    </ul>
+                 </div>
+              </div>
+
+               
+       <section  id="section1">
+        <div class="container1">
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_nKCnOy.json"  background="transparent"  speed="1"  style="width: 300px; height: 130px;"  loop  autoplay></lottie-player>
+      </div>
+        <h1>Better a <br> thousand  times careful <br> than once dead.</h1>
+
+      </section>  
+      
+       </footer>
+
+    
+
+
+<script>
+       const typedTextSpan = document.querySelector(".typed-text");
+       const cursorSpan = document.querySelector(".cursor");
+       
+       const textArray = [ "Hello.","i am shivam",  "I Love to Design.", "I Love to Develop." ];
+       const typingDelay = 200;
+       const erasingDelay = 100;
+       const newTextDelay = 2000; // Delay between current and next text
+       let textArrayIndex = 0;
+       let charIndex = 0;
+       
+       function type() {
+         if (charIndex < textArray[textArrayIndex].length) {
+           if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+           typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+           charIndex++;
+           setTimeout(type, typingDelay);
+         } 
+         else {
+           cursorSpan.classList.remove("typing");
+             setTimeout(erase, newTextDelay);
+         }
+       }
+       
+       function erase() {
+           if (charIndex > 0) {
+           if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+           typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+           charIndex--;
+           setTimeout(erase, erasingDelay);
+         } 
+         else {
+           cursorSpan.classList.remove("typing");
+           textArrayIndex++;
+           if(textArrayIndex>=textArray.length) textArrayIndex=0;
+           setTimeout(type, typingDelay + 1100);
+         }
+       }
+       
+       document.addEventListener("DOMContentLoaded", function() { 
+         if(textArray.length) setTimeout(type, newTextDelay + 210);
+       });
+
+</script>
+      
+</body>
+</html>
